@@ -1,0 +1,24 @@
+ID: 900000365
+Name: Onyx Carter
+Major: computer science
+Password: Ch33zf4rts!
+Courses: 1
+Course: Intro to c
+Credit: 4
+Grade: C
+ID: 900364620
+Name: Annabeth Moore
+Major: Computer Science
+Password: Taunting_Melody00
+Courses: 1
+Course: CSCI 1210
+Credit: 4
+Grade: B
+ID: 900123456
+Name: Tomas Quintana
+Major: Mechanical Engineering
+Password: example123
+Courses: 1
+Course: CSCI 1210
+Credit: 4
+Grade: A
