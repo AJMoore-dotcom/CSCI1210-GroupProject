@@ -26,7 +26,8 @@ int validate_grade(char grade[]);
 void print_record(struct Student students[], int ref, double gpa);
 int id_search(struct Student students[], int count, char id);
 double calculate_gpa(struct Student students[], int ref);
-void new_profile(struct Student *students[], int count);
-
+void new_profile(struct Student students[], int count);
+void update_profile(struct Student students[], int ref);
+bool check_password(struct Student students[], int ref);
 
 #endif
