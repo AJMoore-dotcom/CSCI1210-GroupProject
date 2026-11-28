@@ -58,5 +58,20 @@ void print_record(struct Student students[], int ref, double gpa){
 		printf("Course grade: %s\n", students[ref].courses[i].grade);
 	}
 }
-void update_profile(struct Student students[], int ref);
-bool check_password(struct Student students[], int ref);
+void update_profile(struct Student students[], int ref){
+	int answer;
+	printf("Do you want to update your profile?\n");
+	printf("(1) Yes (2) No\n");
+	while (scanf("%d", &answer) != 1 || answer != 1 || answer != 2){
+		printf("Invalid input, please enter either 1 or 2\n")
+	}
+	if (answer == 2){
+		return;
+	}
+	printf("What would you like to edit?\n");
+	printf("(1) Name, (2) ID, (3) Password, (4) Major, (5) Course Information, (0) Cancel\n");
+	while (scanf("%d", &answer) != 1 || answer < 0 || answer > 5){
+		printf("Please enter a number between 0 and 5\n");
+	}
+}
+
